@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #88cdcf;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+.nav-bar .logo img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav-bar .links_paginas ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-bar ul li a {
+    padding: 20px;
+    color: #882e2e;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color: #000;
+    font-size: 20px;
+    text-shadow: 1px 5px 10px #000;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 45%;
+}
+
+.historia {
+    width: 45%;
+    margin: auto;
+    display: block;
+}
+
+.historia p,
+h2 {
+    text-align: justify;
+}
+
+.cursos, h2 {
+    text-align: center;
+}
+
+.cursos .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.cursos .cards img {
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    padding: 5px 0;
+    margin: 2px 0 5px 0;
+    background-color: #88cdcf;
+    text-align: center;
+}
